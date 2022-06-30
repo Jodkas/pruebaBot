@@ -1,0 +1,74 @@
+{
+    "1": {
+        "responseMessage": [
+            "Mensaje de bienvenida \n",
+            "Elegi opcion a,b o c"
+        ]
+    },
+    "2": {
+        "responseMessage": [
+            "Elegiste la opcion a jeje \n",
+            "Felicidades, esta wea funciona!"
+        ]
+    },
+    "3": {
+        "responseMessage": [
+            "Respuesta de la primer estacion"
+        ]
+    },
+    "4": {
+        "responseMessage": [
+            "Mensaje de bienvenida \n",
+            "Felicidades, esta wea funciona!"
+        ]
+    },
+    "5": {
+        "responseMessage": [
+            "Respuesta de la primer estacion"
+        ]
+    },
+    "6": {
+        "responseMessage": [
+            "elegiste la opcion b \n",
+            "Felicidades, esta wea funciona!"
+        ]
+    },
+    "7": {
+        "responseMessage": [
+            "Respuesta de la primer estacion"
+        ]
+    },
+    "8": {
+        "responseMessage": [
+            "Mensaje de bienvenida \n",
+            "Felicidades, esta wea funciona!"
+        ]
+    },
+    "9": {
+        "responseMessage": [
+            "Respuesta de la primer estacion"
+        ]
+    },
+    "10": {
+        "responseMessage": [
+            "Mensaje de bienvenida \n",
+            "Felicidades, esta wea funciona!"
+        ]
+    },
+    "11": {
+        "responseMessage": [
+            "Respuesta de la primer estacion"
+        ]
+    },
+    "12": {
+        "responseMessage": [
+            "Mensaje de bienvenida \n",
+            "Felicidades, esta wea funciona!"
+        ]
+    },
+    "13": {
+        "responseMessage": [
+            "Respuesta de la primer estacion"
+        ]
+    }
+}

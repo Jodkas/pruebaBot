@@ -1,0 +1,7 @@
+msg._data.notifyName => nombre del que envia el mensaje
+msg.body => texto del mensaje
+msg.from => numero del que envia el mensaje
+msg.hasMedia => booleano si el mensaje contiene un archivo media
+msg.type => tipo del mensaje(chat,voice,etc)
+msg.deviceType => android,ios,etc
+
