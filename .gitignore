@@ -1,0 +1,8 @@
+/node_modules
+/node_modules/*
+chats/*
+!chats/.gitkeep
+mediaSend/*
+!mediaSend/.gitkeep
+.env
+.wwebjs_auth
