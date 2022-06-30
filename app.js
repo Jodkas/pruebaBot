@@ -4,13 +4,19 @@ const { saveMessageJson } = require("./adapter/jsonDb");
 const { responseMessage } = require("./response/responseMessage");
 const { Client } = require("whatsapp-web.js");
 const cors = require("cors");
+const fs = require("fs");
 
 const express = require("express");
 const app = express();
 app.use(cors());
 app.use(express.json());
 const server = require("http").Server(app);
-const client = new Client();
+const client = new Client({
+  puppeteer: {
+    headless: true,
+    args: ["--no-sandbox"],
+  },
+});
 
 const port = process.env.PORT || 3000;
 
