@@ -3,8 +3,17 @@ const qrcode = require("qrcode-terminal");
 const { saveMessageJson } = require("./adapter/jsonDb");
 const { responseMessage } = require("./response/responseMessage");
 const { Client } = require("whatsapp-web.js");
+const express = require("express");
+const app = express();
+app.use(cors());
+app.use(express.json());
+const server = require("http").Server(app);
 const client = new Client();
+
+const port = process.env.PORT || 3000;
+
 console.log("anashe");
+
 client.on("qr", (qr) => {
   qrcode.generate(qr, { small: true });
 });
@@ -37,3 +46,6 @@ client.on("message", async (msg) => {
 });
 
 client.initialize();
+server.listen(port, () => {
+  console.log(`El server esta listo por el puerto ${port}`);
+});
