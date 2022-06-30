@@ -4,7 +4,6 @@ const { saveMessageJson } = require("./adapter/jsonDb");
 const { responseMessage } = require("./response/responseMessage");
 const { Client } = require("whatsapp-web.js");
 const client = new Client();
-const port = process.env.PORT || 3000;
 
 client.on("qr", (qr) => {
   qrcode.generate(qr, { small: true });
