@@ -3,6 +3,8 @@ const qrcode = require("qrcode-terminal");
 const { saveMessageJson } = require("./adapter/jsonDb");
 const { responseMessage } = require("./response/responseMessage");
 const { Client } = require("whatsapp-web.js");
+const cors = require("cors");
+
 const express = require("express");
 const app = express();
 app.use(cors());
