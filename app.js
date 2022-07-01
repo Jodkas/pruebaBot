@@ -11,13 +11,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/", require("./routes/web"));
+
 const server = require("http").Server(app);
-const client = new Client({
-  puppeteer: {
-    headless: true,
-    args: ["--no-sandbox"],
-  },
-});
+const client = new Client();
 
 const port = process.env.PORT || 3000;
 
