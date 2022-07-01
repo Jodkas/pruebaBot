@@ -13,7 +13,11 @@ app.use(express.json());
 app.use("/", require("./routes/web"));
 
 const server = require("http").Server(app);
-const client = new Client();
+const client = new Client({
+  puppeteer: {
+    args: ["--no-sandbox"],
+  },
+});
 
 const port = process.env.PORT || 3000;
 
